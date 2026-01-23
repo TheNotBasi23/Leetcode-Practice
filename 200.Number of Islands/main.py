@@ -1,16 +1,32 @@
-# This is a sample Python script.
+from collections  import  deque
+class Solution:
+    def numIslands(self, grid: List[List[str]]) -> int:
+        elements = [(i,j) for i in range(len(grid)) for j in range(len(grid[i])) if grid[i][j] == "1"]
+        setOfLand = set(elements)
+        q = deque(elements)
+        counter = 0
+        while setOfLand:
+            seed = q.popleft()
+            while seed not in setOfLand:
+                seed = q.popleft()
+            myQueue = deque([seed])
+            while myQueue:
+                itemToExpand = myQueue.popleft()
+                directions = [(1,0),(0,1),(-1,0),(0,-1)]
+                validMoves = [(itemToExpand[0] + direction[0],itemToExpand[1] + direction[1])
+                              for direction in directions if (itemToExpand[0] + direction[0],itemToExpand[1] + direction[1]) in setOfLand]
+                for valid in validMoves:
+                    setOfLand.remove(valid)
+                    myQueue.append(valid)
+                if itemToExpand in setOfLand:
+                    setOfLand.remove(itemToExpand)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+            counter +=1
+        return counter
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(Solution().numIslands(grid = [
+  ["1","1","0","0","0"],
+  ["1","1","0","0","0"],
+  ["0","0","1","0","0"],
+  ["0","0","0","1","1"]
+]))
