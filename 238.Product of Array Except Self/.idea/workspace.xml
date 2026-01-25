@@ -4,15 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75048667-f312-4cf0-b79c-6fb62663532b" name="Changes" comment="" />
+    <list default="true" id="75048667-f312-4cf0-b79c-6fb62663532b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../15. 3Sum/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15. 3Sum/.idea/15.3Sum.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15. 3Sum/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15. 3Sum/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15. 3Sum/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15. 3Sum/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15. 3Sum/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../155. Min Stack/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../155. Min Stack/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../733.Flood Fill/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../733.Flood Fill/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../973.K Closest Points to Origin/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../973.K Closest Points to Origin/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="38aWwNWLmVFvOIlw520fMIrhYOr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,8 +38,11 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Vas/PycharmProjects/LeetcodeProblems/238.Product of Array Except Self",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,6 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1769038399856</updated>
       <workItem from="1769038400873" duration="1570000" />
+      <workItem from="1769312297831" duration="1623000" />
     </task>
     <servers />
   </component>
@@ -59,7 +79,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>6</line>
+          <line>39</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
