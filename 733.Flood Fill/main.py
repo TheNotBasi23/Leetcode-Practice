@@ -9,7 +9,7 @@ class Solution:
 
         initCoord = (sr,sc)
         directions = [(1,0),(0,1),(-1,0),(0,-1)]
-
+        
         q = deque([initCoord])
         while q:
             item = q.popleft()
